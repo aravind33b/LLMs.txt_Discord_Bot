@@ -25,15 +25,9 @@ A Discord bot that helps users find information about Uniswap v4 by searching th
 pip install -r requirements.txt
 ```
 
-3. Create a `.env` file in the root directory with the following variables:
-```env
-DISCORD_TOKEN="your_discord_bot_token"
-OPEN_AI_API="your_openai_api_key"
-SUPABASE_PROJECT_URL="your_supabase_project_url"
-SUPABASE_SERVICE_ROLE="your_supabase_service_role_key"
-```
+1. Copy the .env.example file to create a `.env` file in the root directory.
 
-4. Set up Supabase data (choose one option):
+2. Set up Supabase data (choose one option):
 
    Option A - Quick Setup:
    - Create a new Supabase project
