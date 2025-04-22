@@ -1,0 +1,5 @@
+supabase_utils/__pycache__/
+bot/__pycache__/
+.env
+venv/
+utils/docs.json
